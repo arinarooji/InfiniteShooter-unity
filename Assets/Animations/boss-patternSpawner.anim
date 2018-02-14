@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: boss-patternSpawner
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      - serializedVersion: 2
+        time: 60
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c744c85addaeff74bbd8b2c52538cf0f, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 3305885265
+      script: {fileID: 11500000, guid: c744c85addaeff74bbd8b2c52538cf0f, type: 3}
+      typeID: 114
+      customType: 24
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 60
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      - serializedVersion: 2
+        time: 60
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: c744c85addaeff74bbd8b2c52538cf0f, type: 3}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 1.4333333
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1320693304000640, guid: b972e7246f5c2cb4dbbef4518da98856,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.2333333
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1320693304000640, guid: b972e7246f5c2cb4dbbef4518da98856,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.0333333
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1320693304000640, guid: b972e7246f5c2cb4dbbef4518da98856,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.9333334
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1854519871859220, guid: 269f07f18d823704eb86293fc8cc6edd,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 7.65
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1854519871859220, guid: 269f07f18d823704eb86293fc8cc6edd,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 13.933333
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1222965476545960, guid: 3c076273951fa9243b5144a3bb211744,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 15.683333
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1346167311005390, guid: c4b253694916fc84fb3938383fe01774,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 19.966667
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1903090720098300, guid: 602b104d68f9c5841987bdba65aee33c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 20.933332
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1903090720098300, guid: 602b104d68f9c5841987bdba65aee33c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 22.05
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1903090720098300, guid: 602b104d68f9c5841987bdba65aee33c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 22.916666
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1903090720098300, guid: 602b104d68f9c5841987bdba65aee33c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 29.916666
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1268971411263636, guid: a4d6954e939511b4091233f633289546,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 31.833334
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1854519871859220, guid: 269f07f18d823704eb86293fc8cc6edd,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 35.016666
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1846145027871198, guid: 92e295659fa89aa4c9b7b26f37bc1b0a,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 35.966667
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1846145027871198, guid: 92e295659fa89aa4c9b7b26f37bc1b0a,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 39.866665
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1795546528154296, guid: 786304e7273b5e04f8cead64bb8ab189,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 40.5
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1795546528154296, guid: 786304e7273b5e04f8cead64bb8ab189,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 41.133335
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1795546528154296, guid: 786304e7273b5e04f8cead64bb8ab189,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 44.966667
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1846145027871198, guid: 92e295659fa89aa4c9b7b26f37bc1b0a,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 46
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1846145027871198, guid: 92e295659fa89aa4c9b7b26f37bc1b0a,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 47.116665
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1846145027871198, guid: 92e295659fa89aa4c9b7b26f37bc1b0a,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 49.9
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1320693304000640, guid: b972e7246f5c2cb4dbbef4518da98856,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 50.45
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1903090720098300, guid: 602b104d68f9c5841987bdba65aee33c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 51.566666
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1222965476545960, guid: 3c076273951fa9243b5144a3bb211744,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 52.116665
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1903090720098300, guid: 602b104d68f9c5841987bdba65aee33c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 55.066666
+    functionName: BulletPattern
+    data: 
+    objectReferenceParameter: {fileID: 1995920043175932, guid: 17d566b3c6c472949a675b749746ad8b,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
