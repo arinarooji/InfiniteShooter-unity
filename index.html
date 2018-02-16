@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" class="fadeIn">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <style>
-      body { background: url("Assets/Textures/space.png") repeat; }
+      body { background: rgb(40,40,40) url("Assets/Textures/space-min.png") repeat; }
       .footer { background-color: white; }
       .ship-img	{
         position: fixed;
@@ -19,6 +19,11 @@
       @keyframes goRight {
         from { transform: translate(-1920px,0); }
         to { transform: translate(1920px,0); }
+      }
+      .fadeIn { animation: fadeIn 2s linear; }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
     </style>
     <script src="TemplateData/UnityProgress.js"></script>  
